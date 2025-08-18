@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
+        <div className="gap-[20px] flex">
           <Link href="/">Home</Link>
           <Link href="/coin/coinId">Coin Page</Link>
           <Link href="/portfolio">Portfolio</Link>
