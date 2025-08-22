@@ -33,5 +33,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-console.log("pluh");
